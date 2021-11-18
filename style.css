@@ -65,7 +65,7 @@ a:visited {
 
 /* HEADER */
 .header {
-  height: 768px;
+  height: 980px;
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -90,7 +90,7 @@ a:visited {
 .content {
   position: relative;
   padding: 0 25px;
-  margin: 240px auto;
+  margin: 340px auto;
   max-width: 1150px;
   min-width: 320px;
   z-index: 3;
@@ -126,7 +126,7 @@ a:visited {
 
 /* SECTION */
 .section {
-  height: 768px;
+  height: 980px;
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -143,6 +143,9 @@ a:visited {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.birth .content {
+  margin: 340px auto;
+}
 
 /* SECTION UNIV */
 .univ {
@@ -151,6 +154,9 @@ a:visited {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.univ .content {
+  margin: 340px auto;
 }
 
 /* SECTION TOGETHER */
@@ -161,9 +167,13 @@ a:visited {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.together .content {
+  margin: 340px auto;
+}
 
 /* SECTION EMAIL */
 .email .content {
+  margin: 340px auto;
   color: #000;
 }
 .address {
