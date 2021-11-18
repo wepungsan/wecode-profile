@@ -77,7 +77,7 @@ a:visited {
 
 /* HEADER */
 .header {
-  height: 980px;
+  height: 100vh;
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -133,7 +133,7 @@ a:visited {
 
 /* SECTION */
 .section {
-  height: 980px;
+  height: 100vh;
   position: relative;
   width: 100%;
   overflow: hidden;
